@@ -2,11 +2,14 @@
   "name": "valhallacombat",
   "version": "1",
   "dependencies": [
-    "fast-cpp-csv-parser",
-    "rsm-binary-io",
-    "simpleini",
-    "spdlog",
+    "commonlibsse-ng",
     "xbyak",
-    "rapidcsv"
+    "simpleini",
+    {
+      "name": "spdlog",
+      "features": [
+        "wchar"
+      ]
+    }
   ]
 }
